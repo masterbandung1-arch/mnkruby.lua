@@ -44,13 +44,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Buying"] = true,
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
-            "Wind", "Storm", "Cloudy", -- Sudah diperbaiki komanya
+            "Wind", "Storm", "Cloudy", 
         },
     },
 
 _G.Settings = Settings
 script_key="B9C58C392E7BCBF5C4347FD0C401D3DB";
 
--- Memanggil Script Utama
-local s,r repeat s,r=pcall(function() return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua") end) task.wait(1) until s;
-loadstring(r)()
+local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua")end)wait(1)until s;loadstring(r)()
