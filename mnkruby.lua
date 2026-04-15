@@ -11,7 +11,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
 
         ["Auto Accept Trade"] = true,
-        ["Auto Friend Request"] = true,
+        ["Auto Friend Request"] = false,
     },
 
     ["Auto Trade"] = {
@@ -38,7 +38,7 @@ _G.FishItConfig = _G.FishItConfig or {
 
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 50,
     },
 
@@ -82,10 +82,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Weather List"] = {
             "Cloudy",
             "Wind",
-            "Snow",
             "Storm",
-            "Shark Hunt",
-            "Radiant",
         },
     },
 
@@ -121,7 +118,6 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Evolved Roll Enchant"] = true,
 
         ["Enchant List"] = {
-            "SECRET Hunter",
             "Cursed I",
         },
 
@@ -145,8 +141,6 @@ _G.FishItConfig = _G.FishItConfig or {
 
         ["Second Enchant List"] = {
             "Cursed I",
-            "Perfection",
-            "Mutation Hunter II",
             "Mutation Hunter III",
         },
 
@@ -183,7 +177,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Endgame"] = "Diamond Rod",
     },
 
-    ["ExtremeFpsBoost"] = false,
+    ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
